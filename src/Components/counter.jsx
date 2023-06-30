@@ -1,12 +1,12 @@
-import molecHappyUsers from '../Moleculas/molec_HappyUsers'
+import MolecHappyUsers from '../Moleculas/molec_HappyUsers'
 
-const counter = () => {
+const Counter = () => {
     return (
         <div>
-            <molecHappyUsers/>
+            <MolecHappyUsers/>
         </div>
     )
 }
 
 
-export default counter
+export default Counter

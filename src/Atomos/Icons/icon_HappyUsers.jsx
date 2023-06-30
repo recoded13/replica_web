@@ -1,8 +1,11 @@
 
-const iconHappyUsers = () => {
+const IconHappyUsers = () => {
     return (
-        <img src="" alt="Icon Happy Users" />
+        <div>
+            <img src="public/Pics/icon002.png" alt="Icon Happy Users" />
+        </div>
+        
     )
 }
 
-export default iconHappyUsers
+export default IconHappyUsers

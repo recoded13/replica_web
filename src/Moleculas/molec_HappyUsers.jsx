@@ -1,13 +1,13 @@
-import iconHappyUsers from '../Atomos/Icons/icon_HappyUsers'
+import IconHappyUsers from '../Atomos/Icons/icon_happyusers'
 
-const molecHappyUsers = () => {
+const MolecHappyUsers = () => {
     return (
         <div class="people">
-             <img src={iconHappyUsers} alt="Icon Happy Users" />
+             <img src={IconHappyUsers} alt="Icon Happy Users" />
              <span>231</span>
              <span class="texto">Happy Users</span>
         </div>
     )
 }
 
-export default molecHappyUsers
+export default MolecHappyUsers
