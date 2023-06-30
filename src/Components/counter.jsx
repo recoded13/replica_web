@@ -1,9 +1,8 @@
 import MolecHappyUsers from '../Moleculas/molec_HappyUsers'
-import './counter.css'
 
 const Counter = () => {
     return (
-        <div className='counter'>
+        <div>
             <MolecHappyUsers/>
         </div>
     )
