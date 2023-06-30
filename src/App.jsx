@@ -9,12 +9,14 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className='counter'>
+        <MolecHappyUsers />
         <MolecHappyUsers />
         <MolecHappyUsers />
         <MolecHappyUsers />
         <MolecHappyUsers />
       </div>
+      <br /><br /><br /><br /><br />
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />

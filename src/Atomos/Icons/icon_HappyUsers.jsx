@@ -1,8 +1,9 @@
+import './icon_happyusers.css'
 
 const IconHappyUsers = () => {
     return (
         <div>
-            <img src="public/Pics/icon002.png" alt="Icon Happy Users" />
+            <img className="icons" src="public\Pics\icon002.png" alt="IconHappyUsers" />
         </div>
         
     )
