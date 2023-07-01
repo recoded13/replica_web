@@ -5,6 +5,7 @@ import './App.css'
 import './reset.css'
 import MolecHappyUsers from './Moleculas/molec_HappyUsers'
 import MolecIssuesSolved from './Moleculas/molec_IssuesSolved'
+import MolecGoodReviews from './Moleculas/molec_GoodReviews'
 
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
       <div className='counter'>
         <MolecHappyUsers />
         <MolecIssuesSolved />
-        <MolecHappyUsers />
+        <MolecGoodReviews />
         <MolecHappyUsers />
         <MolecHappyUsers />
       </div>
