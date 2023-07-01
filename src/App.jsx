@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import './reset.css'
 import MolecHappyUsers from './Moleculas/molec_HappyUsers'
-/* import MolecIssuesSolved from './Moleculas/molec_IssuesSolved' */
+import MolecIssuesSolved from './Moleculas/molec_IssuesSolved'
 
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
     <>
       <div className='counter'>
         <MolecHappyUsers />
-        {/* <MolecIssuesSolved /> */}
+        <MolecIssuesSolved />
         <MolecHappyUsers />
         <MolecHappyUsers />
         <MolecHappyUsers />

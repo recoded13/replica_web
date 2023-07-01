@@ -1,13 +1,13 @@
-import IconHappyUsers from '../Atomos/Icons/icon_issuressolved'
+import IconHappyUsers from '../Atomos/Icons/icon_issuessolved'
 import './molec_IssuesSolved.css'
 
 const MolecIssuesSolved = () => {
     return (
         <div className ="people">
              <IconHappyUsers />
-             <span>231</span>
+             <span>385</span>
              <br />
-             <span class="texto">Happy Users</span>
+             <span class="texto">Issues Solved</span>
         </div>
     )
 }
