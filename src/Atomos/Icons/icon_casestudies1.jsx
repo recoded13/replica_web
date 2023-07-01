@@ -1,9 +1,9 @@
-import './icon.css'
+import './icon1.css'
 
 const IconCaseStudies1 = () => {
     return (
         <div>
-            <img className="icons" src="\Pics\icon005.png" alt="Icon Case Studies"/>
+            <img className="icons" id='icons' src="\Pics\icon005.png" alt="Icon Case Studies"/>
         </div>
         
     )

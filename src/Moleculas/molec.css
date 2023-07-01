@@ -7,15 +7,15 @@
 span {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
-    font-size: 42px;
+    font-size: 32px;
     color: rgb(10, 10, 10);
 }
 .texto{
-    font-size: 14px;
+    font-size: 10px;
     color: rgb(128, 126, 127);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #texto{
-    font-size: 16px;
+    font-size: 13px;
   }
