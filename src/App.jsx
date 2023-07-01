@@ -6,7 +6,7 @@ import './reset.css'
 import MolecHappyUsers from './Moleculas/molec_HappyUsers'
 import MolecIssuesSolved from './Moleculas/molec_IssuesSolved'
 import MolecGoodReviews from './Moleculas/molec_GoodReviews'
-
+import MolecCaseStudies from './Moleculas/molec_CaseStudies'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,7 +17,7 @@ function App() {
         <MolecHappyUsers />
         <MolecIssuesSolved />
         <MolecGoodReviews />
-        <MolecHappyUsers />
+        <MolecCaseStudies />
         <MolecHappyUsers />
       </div>
       <br /><br /><br /><br /><br />
