@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import './reset.css'
 import MolecHappyUsers from './Moleculas/molec_HappyUsers'
+/* import MolecIssuesSolved from './Moleculas/molec_IssuesSolved' */
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,7 +14,7 @@ function App() {
     <>
       <div className='counter'>
         <MolecHappyUsers />
-        <MolecHappyUsers />
+        {/* <MolecIssuesSolved /> */}
         <MolecHappyUsers />
         <MolecHappyUsers />
         <MolecHappyUsers />

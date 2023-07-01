@@ -1,7 +1,7 @@
-import IconHappyUsers from '../Atomos/Icons/icon_happyusers'
-import './molec_HappyUsers.css'
+import IconHappyUsers from '../Atomos/Icons/icon_issuressolved'
+import './molec_IssuesSolved.css'
 
-const MolecHappyUsers = () => {
+const MolecIssuesSolved = () => {
     return (
         <div className ="people">
              <IconHappyUsers />
@@ -12,4 +12,4 @@ const MolecHappyUsers = () => {
     )
 }
 
-export default MolecHappyUsers
+export default MolecIssuesSolved

@@ -2,8 +2,9 @@
 .counter {
     display: flex;
     align-items: center;
-    background-color: rgb(143, 206, 188);
-    width: 100%;
+    justify-content: space-around;
+    background-color: rgb(234,231,250);
+    width: 190%;
     height: 20vh;
   }
 
