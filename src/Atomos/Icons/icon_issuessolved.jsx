@@ -1,4 +1,4 @@
-import './icon_issuessolved.css'
+import './icon.css'
 
 const IconIssuesSolved = () => {
     return (

@@ -1,5 +1,5 @@
 import IconHappyUsers from '../Atomos/Icons/icon_issuessolved'
-import './molec_IssuesSolved.css'
+import './molec.css'
 
 const MolecIssuesSolved = () => {
     return (

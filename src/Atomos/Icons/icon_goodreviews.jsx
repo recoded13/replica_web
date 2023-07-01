@@ -1,4 +1,4 @@
-import './icon_goodreviews.css'
+import './icon.css'
 
 const IconGoodReviews = () => {
     return (

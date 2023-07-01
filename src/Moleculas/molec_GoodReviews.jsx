@@ -1,5 +1,5 @@
 import IconMolecGoodReviews from '../Atomos/Icons/icon_goodreviews'
-import '../Moleculas/molec_GoodReviews'
+import '../Moleculas/molec.css'
 
 const MolecGoodReviews = () => {
     return (

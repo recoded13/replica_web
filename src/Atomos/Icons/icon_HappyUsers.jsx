@@ -1,4 +1,4 @@
-import './icon_happyusers.css'
+import './icon.css'
 
 const IconHappyUsers = () => {
     return (
