@@ -20,6 +20,12 @@ function App() {
         <Counter1/>
       </div>
         <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
       <div className='page-4'>
         <Counter/>
         <img className='download-iphone' src="/Pics/download-iphone.png" alt="Pic download-iphone" />
