@@ -1,33 +1,37 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
+import './reset.css'
+import Counter from './Components/counter'
+import Counter1 from './Components/counter1'
+import Download_2botones from './Components/download_2botones'
+import TextAbovButDownL from './Atomos/text_above_but_downl'
+import TextAbovButDownL2 from './Atomos/text_above_but_downl2'
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div className='page-1'>
+        <h1 className='header'>Mobile App Landing Page</h1>
+        <TextAbovButDownL />
+        <Download_2botones />
+        <img className='header-iphone' src="/Pics/header-iphone.png" alt="Pic header-iphone" />
+        <Counter1/>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+      <div className='page-4'>
+        <Counter/>
+        <img className='download-iphone' src="/Pics/download-iphone.png" alt="Pic download-iphone" />
+        <TextAbovButDownL2 />
+        <Download_2botones />
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }

@@ -1,0 +1,16 @@
+.button-dowload{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 10px;
+    font-weight: bolder;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(255,85,111);
+    border-style: none;
+    border-radius: 35px;
+}
