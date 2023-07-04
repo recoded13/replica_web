@@ -1,0 +1,131 @@
+@charset "UTF-8";
+/* Basic */
+body {
+	font-family: Helvetica, Arial, sans-serif;
+    background-color:#f7fafd;
+}
+/* movil container */
+.container {
+	width: 84%;
+	margin: 0 auto;
+}
+/* desktop */
+@media (min-width: 900px ){
+	.container {
+		width:91%;
+		max-width: 1240px;
+	}
+}
+/* Reset / Normalize / Sanitize */
+body, h1, h2, h3, h4, h5, h6, p, ul, figure {
+	margin: 0;
+	padding: 0;
+
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+a:hover {
+	opacity: 0.8;
+	color: #fe5b73;
+}
+.sr-only {
+	border: 0; 
+	clip: rect(0 0 0 0); 
+	height: 1px; 
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
+
+/* calendar */
+.calendar{
+    display:flex;
+    flex-wrap:wrap;
+    background-color: #e5edf5;
+}
+.calendar-left{
+    width:50%;
+    /*background-color: yellow;*/
+}
+.calendar-left-container{
+    margin:30px;
+}
+.calendar-left li{
+    list-style-type: none;
+    padding:10px;
+}
+.terms{
+    width: 150px;
+    height: 40px;
+    background: #ff556e;
+    border-radius: 50px  50px 50px 50px;
+    color:#fff;
+    border: none;
+    margin-top:25px;
+    font-weight:bold;
+}
+.privacy{
+    width: 150px;
+    height: 40px;
+   
+    border-radius: 50px  50px 50px 50px;
+    color:#000;
+    border: none;
+    margin-top:25px;
+    font-weight:bold;
+    border: 1px solid black;
+    margin-left:5px;
+}
+.calendar-right{
+    width:50%;
+    background-color: #e5edf5;
+    text-align: center;
+}
+.circle {
+    width: 300px;
+    height: 300px;
+    margin: 0px auto;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+.circle img{
+    width:170px;
+    margin-top:-15px;
+}
+.white-circle-container{
+    margin:50px ;
+}
+
+@media only screen and (max-width: 1200px) { /* when the screen width is greater than 1200px */
+    .container{
+    width: 100%;
+    }
+    .calendar-left{
+        width:100%;
+      
+    }
+    .calendar-right{
+        width:100%;
+      
+    }
+
+    }
+@media only screen and (max-width: 640px) { /* when the screen width is smaller than 640px */
+.container{
+    width: 100%;
+    display: block;
+}
+.calendar-left{
+    width:100%;
+  
+}
+.calendar-right{
+    width:100%;
+  
+}
+}
