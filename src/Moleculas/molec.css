@@ -1,7 +1,6 @@
 .people {
     display: flex;
     flex-direction: column;
-    color: rgb(192, 81, 192);
     align-items: center;
 }
 span {
