@@ -1,0 +1,190 @@
+@charset "UTF-8";
+/* Basic */
+body {
+	font-family: Helvetica, Arial, sans-serif;
+    background-color:#f7fafd;
+}
+/* movil header container */
+.container {
+	width: 84%;
+	margin: 0 auto;
+}
+/* desktop */
+@media (min-width: 900px ){
+	.container {
+		width:91%;
+		max-width: 1240px;
+	}
+}
+/* Reset / Normalize / Sanitize */
+body, h1, h2, h3, h4, h5, h6, p, ul, figure {
+	margin: 0;
+	padding: 0;
+
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+a:hover {
+	opacity: 0.8;
+	color: #fe5b73;
+}
+.sr-only {
+	border: 0; 
+	clip: rect(0 0 0 0); 
+	height: 1px; 
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
+
+/* Gallery section */
+.gallery{
+    display:flex;
+    flex-wrap:wrap;
+    margin-top:50px;
+}
+.gallery-pic{
+    display:flex;
+ 
+    width:50%;
+    /*background-color: blue;*/
+}
+.gallery-container{
+    margin:10px;
+}
+/* gallery list pic */
+.red-circle {
+   
+    margin:100px 15px 0 0px;
+}
+.gallery-header{
+    background-color: #a378f9;
+    padding:15px;
+    text-align:center;
+}  
+.gallery-header h1{
+    font-size:30px;
+    margin-bottom:20px;
+    color:#fff;
+}
+.gallery-header li{
+    display:inline;
+    padding:50px;
+    color:#fff;
+}   
+.listBox{
+    /*width: 368px;*/
+    width:70%;
+    margin: 10px auto;
+}
+.pic img{
+    width: 160px;
+    height: 120px;
+    border: 1px #CCCCCC solid;
+    padding: 2px;
+    background: #FFFFFF;
+    /* By default, the image is 3px larger downwards and replaced with block elements */
+    display: block;
+}
+.pic{
+    border: 1px #bbbbbb solid;
+    padding: 5px;
+    width: 166px;
+    background: #EEEEEE;
+    float: left;
+    margin: 3px;
+    position: relative;
+}
+.list{
+    margin-top: 10px;
+}
+ 
+/* The enlarged image is styled for positioning. */
+.pic img:nth-of-type(2){
+    /* Initial hiding */
+    display: none;
+    width: 230px;
+    height: 200px;
+    position: absolute;
+    top: -25px;
+    left: -25px;
+    /* Displayed on the upper level */
+    z-index: 88;
+}
+.pic:hover img:nth-of-type(2){
+    /* Enlarge the image on hover*/
+    display: block;
+    /*border: 1px #000000 solid;*/
+}
+.listBox p{
+    text-align: center;
+    font-size: 17px;
+    color: #777;
+    margin-top: 10px;
+}
+/* Set the empty element to add a floating cleanup clear:both to resolve the height collapse */
+.clear{
+    clear: both;
+}
+
+
+.gallery-description{
+    width:50%;
+    /*background-color: aqua;*/
+    font-size:25px;
+    
+}
+.gallery-description p,li{
+    color:#686868;
+    line-height: 30px;
+    font-size:16px;
+}
+.description-container{
+    margin:30px 40px 50px 40px;
+}
+
+.gallery-description li{
+    list-style-type: square;
+}
+.gallery-description button{
+    width: 150px;
+    height: 40px;
+    background: #ff556e;
+    border-radius: 50px  50px 50px 50px;
+    color:#fff;
+    border: none;
+    margin-top:25px;
+}
+@media only screen and (max-width: 1200px) { /* when the screen width is greater than 1200px */
+    .container{
+    width: 100%;
+    }
+    .calendar-left{
+        width:100%;
+      
+    }
+    .calendar-right{
+        width:100%;
+      
+    }
+
+    }
+@media only screen and (max-width: 640px) { /* when the screen width is smaller than 640px */
+.container{
+    width: 100%;
+    display: block;
+}
+.gallery-pic{
+    width:100%;
+  
+}
+.gallery-description{
+    width:100%;
+  
+}
+}
