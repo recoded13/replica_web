@@ -51,7 +51,7 @@ a:hover {
 }
 .header.show-bg{
 	background-color: #2E5180;
-	opacity: 0.6;
+	/*opacity: 0.6;*/
 }
 .header .container {
 	display: flex;
